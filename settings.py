@@ -1,0 +1,2 @@
+VK_TOKEN = ""
+CONFIRM_TOKEN = "79d58f5d"
