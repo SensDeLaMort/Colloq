@@ -7,6 +7,11 @@ import json
 app = Flask(__name__)
 
 
+@app.route('/')
+def hello():
+    return 'Hello from Flask!'
+
+
 @app.route('/', methods=['POST'])
 def processing():
     data = json.loads(request.data)
